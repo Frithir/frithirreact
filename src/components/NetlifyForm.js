@@ -2,7 +2,6 @@ import React, { Component } from 'react'
 import styled from 'styled-components'
 import { stringify } from 'qs'
 import { color } from '../globalStyles'
-import { siteTitle } from '../App'
 const fetch = window.fetch
 
 class Form extends Component {
@@ -10,7 +9,7 @@ class Form extends Component {
     name: '',
     email: '',
     message: '',
-    subject: `New Submission from ${siteTitle}!`,
+    subject: `New Submission from frithir`,
     _gotcha: '',
     disabled: false,
     alert: '',
@@ -60,7 +59,7 @@ class Form extends Component {
           name: '',
           email: '',
           message: '',
-          subject: `New Submission from ${siteTitle}!`,
+          subject: `New Submission from frithir!`,
           _gotcha: ''
         })
       })
@@ -127,9 +126,9 @@ const StyledForm = styled.form`
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  justify-content: flex-start;
+  justify-content: center;
   max-width: 500px;
-  margin: 2.5rem 0;
+  margin: 2.5rem auto;
 
   & > * + * {
     margin-top: 1.5rem;
@@ -175,10 +174,11 @@ const Input = styled.input`
   display: block;
   margin: 0;
   border: none;
-  padding: 0.5em 0;
+  padding: 1rem;
   line-height: 1;
   transition: border-color 0.2s;
   resize: none;
+  font-size: 1.8rem;
 
   &:focus {
     outline: none;

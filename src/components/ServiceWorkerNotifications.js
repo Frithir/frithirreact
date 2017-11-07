@@ -14,6 +14,7 @@ const Notification = styled.div`
   min-height: 5rem;
   transition: transform 0.1s ease-in-out;
   transform: translateY(${props => props.message ? '0' : '100%'});
+  font-family: sans-serif;
 `
 const CloseButton = styled.button.attrs({
   children: 'x'
