@@ -199,9 +199,10 @@ const Input = styled.input`
 `
 const Textarea = Input.withComponent('textarea')
 const Alert = styled.p`
-  background: whitesmoke;
+  color: whitesmoke;
   width: 100%;
   padding: 2rem;
+  font-size: 1.4rem;
 `
 const Button = styled.input`
   background: ${color.primary};
