@@ -1,5 +1,17 @@
 ---
 title: WHAT I DO
+content: |-
+  * **FRONT-END**\
+    JAVASCRIPT, ES6, REACT, GULP, HTML5, CSS3
+  * **BACK-END**\
+    NODEJS, PHP, API'S, SYS-ADMIN, LETSENCRYPT, SQL
+  * **CMS**\
+    CONTENTFUL, WORDPRESS & MORE...
+  * **APPS**\
+    PROGRESSIVE WEB APPS, REACT, FIREBASE
+  * **CLOUD**\
+    AWS, GOOGLE, FIREBASE
+  * **E-COMMERCE**\
+    WOOCOMMERCE, STRIPE & MORE...
 ---
 
-## content here.
