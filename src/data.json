@@ -1,0 +1,48 @@
+{
+  "pages": [
+    {
+      "content": "",
+      "excerpt": "",
+      "title": "I DRINK COFFEE, WRITE CODE AND IMPROVE MY DEVELOPMENT SKILLS EVERY DAY.",
+      "name": "about"
+    },
+    {
+      "content": "ALWAYS INTERESTED IN COOL IDEAS. DO YOU HAVE DIGITAL PROJECT? LET'S TALK.\n",
+      "excerpt": "",
+      "title": "Contact",
+      "name": "contact"
+    },
+    {
+      "content": "",
+      "excerpt": "",
+      "title": "WITH MORE THAN 10 YEARS OF EXPERIENCE IN DIGITAL DEVELOPMENT & HUNDREDS OF WEBSITES DEVELOPED. I MAKE CODE THAT WORKS.",
+      "name": "experence"
+    },
+    {
+      "content": "",
+      "excerpt": "",
+      "title": "Hi I'm Alex Frith",
+      "subtitle": "A freelance developer",
+      "name": "home"
+    },
+    {
+      "content": "* **FRONT-END**\\\n  JAVASCRIPT, ES6, REACT, GULP, HTML5, CSS3\n* **BACK-END**\\\n  NODEJS, PHP, API'S, SYS-ADMIN, LETSENCRYPT, SQL\n* **CMS**\\\n  CONTENTFUL, WORDPRESS & MORE...\n* **APPS**\\\n  PROGRESSIVE WEB APPS, REACT, FIREBASE\n* **CLOUD**\\\n  AWS, GOOGLE, FIREBASE\n* **E-COMMERCE**\\\n  WOOCOMMERCE, STRIPE & MORE...",
+      "excerpt": "",
+      "title": "WHAT I DO",
+      "name": "what-i-do"
+    }
+  ],
+  "settings": [
+    {
+      "siteTitle": "Alex Frith - Freelance developer",
+      "siteUrl": "https://netlify-cms-react-starter.netlify.com",
+      "siteDescription": "Lightning-fast, offline-first protfolio with Netlify CMS and React.",
+      "socialMediaCard": {
+        "image": "/images/uploads/card-og.png",
+        "twitterCreatorAccount": "@frithir_com",
+        "twitterSiteAccount": ""
+      },
+      "name": "global"
+    }
+  ]
+}

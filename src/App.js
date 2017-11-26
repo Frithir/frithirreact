@@ -1,7 +1,8 @@
 import React, { Component } from 'react'
 import { BrowserRouter as Router } from 'react-router-dom'
-import GithubCorner from './components/GithubCorner'
 
+import GithubCorner from './components/GithubCorner'
+import SocialMeta from './components/SocialMeta'
 import ImageRow from './components/ImageRow'
 
 import Welcome from './views/Welcome'
@@ -13,15 +14,37 @@ import Contact from './views/Contact'
 import ServiceWorkerNotifications from './components/ServiceWorkerNotifications'
 import globalStyles from './globalStyles'
 
+import data from './data.json'
+
 class App extends Component {
+  state = {
+    data
+  }
+
   componentWillMount () {
     globalStyles()
+    import('./netlifyIdentity')
   }
 
   render () {
+    const {
+      siteTitle,
+      siteUrl,
+      siteDescription,
+      socialMediaCard
+    } = this.getDocument('settings', 'global')
     return (
       <Router>
+
         <div>
+          <SocialMeta
+            title={siteTitle}
+            url={siteUrl}
+            description={siteDescription}
+            absoluteImageUrl={socialMediaCard && socialMediaCard.image && siteUrl + socialMediaCard.image}
+            twitterCreatorAccount={socialMediaCard && socialMediaCard.twitterCreatorAccount}
+            twitterSiteAccount={socialMediaCard && socialMediaCard.twitterSiteAccount}
+          />
           <ServiceWorkerNotifications readyMessage='This message is displayed when the Service Worker is registered' />
           <GithubCorner url='https://github.com/Firthir' />
           <Welcome />
