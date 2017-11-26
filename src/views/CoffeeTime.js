@@ -3,11 +3,11 @@ import styled from 'styled-components'
 
 const CoffeeTime = styled.section ``
 
-export default () => (
+export default ({ page }) => (
   <CoffeeTime className="section cascade bg-pink">
     <div className="container">
       <p className="black">
-        I drink coffee, write code and improve my development skills every day.
+        {page.title}
       </p>
     </div>
   </CoffeeTime>

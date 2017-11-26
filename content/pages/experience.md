@@ -1,3 +1,4 @@
 ---
-title: WITH MORE THAN 10 YEARS OF EXPERIENCE IN DIGITAL DEVELOPMENT & HUNDREDS OF WEBSITES DEVELOPED. I MAKE CODE THAT WORKS.
+title: With more than 10 years of experience in digital development & hundreds of websites developed. I write
+orange: code that works
 ---

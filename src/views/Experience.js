@@ -7,7 +7,7 @@ export default ({ page }) => (
   <Experience className="section cascade bg-cream">
     <div className="container">
       <p className="black">
-        {page.content}
+        {page.title} <span className="orange">{page.orange}</span>.
       </p>
     </div>
   </Experience>

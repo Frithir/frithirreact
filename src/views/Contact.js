@@ -5,11 +5,11 @@ import StyledForm from '../components/NetlifyForm'
 
 const Contact = styled.section ``
 
-export default () => (
+export default ({ page }) => (
   <Contact className="section cascade">
     <div className="container">
       <p className="white">
-        Always interested in cool ideas. Do you have digital project? <a className="email pink popup" href="">Let's talk</a>.
+        {page.title}{page.content}
       </p>
     </div>
     <StyledForm />

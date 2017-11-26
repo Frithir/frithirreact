@@ -1,3 +1,3 @@
 ---
-title: I DRINK COFFEE, WRITE CODE AND IMPROVE MY DEVELOPMENT SKILLS EVERY DAY.
+title: I drink coffee, write code and improve my development skills every day.
 ---
