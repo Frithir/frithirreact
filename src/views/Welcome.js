@@ -18,14 +18,14 @@ const Welcome = styled.section`
   }
 `
 
-export default () => (
+export default ({ page }) => (
   <Welcome>
     <section className="section">
       <div className="container">
         <div className="welcome">
           <h1>
-            <span className="cream">Hi I'm Alex Frith</span><br/>
-            <span className="pink">A freelance developer</span><br/>
+            <span className="cream">{page.title}</span><br/>
+            <span className="pink">{page.subtitle}</span><br/>
           </h1>
         </div>
       </div>
