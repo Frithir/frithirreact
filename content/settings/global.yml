@@ -1,0 +1,7 @@
+siteTitle: Alex Frith - Freelance developer
+siteUrl: 'https://netlify-cms-react-starter.netlify.com'
+siteDescription: 'Lightning-fast, offline-first protfolio with Netlify CMS and React.'
+socialMediaCard:
+  image: /images/uploads/card-og.png
+  twitterCreatorAccount: '@frithir_com'
+  twitterSiteAccount: ''
