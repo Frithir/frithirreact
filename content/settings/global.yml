@@ -1,6 +1,6 @@
 siteTitle: 'Alex Frith | Freelance Front End Developer - Gold Coast, Australia'
 siteUrl: 'https://netlify-cms-react-starter.netlify.com'
-siteDescription: 'Lightning-fast, offline-first portfolio build on Netlify CMS and React.'
+siteDescription: 'Lightning-fast, offline-first portfolio built on Netlify CMS and React.'
 socialMediaCard:
   image: /images/uploads/card-og.png
   twitterCreatorAccount: '@frithir_com'
