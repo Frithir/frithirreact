@@ -1,4 +1,4 @@
 ---
 title: ALWAYS INTERESTED IN COOL IDEAS. DO YOU HAVE DIGITAL PROJECT?
 ---
-LET'S TALK.
+[let's talk](mailto:alex@frithir.com).
