@@ -1,6 +1,7 @@
 import React from 'react'
 import styled from 'styled-components'
 
+import Content from '../components/Content.js'
 import StyledForm from '../components/NetlifyForm'
 
 const Contact = styled.section ``
