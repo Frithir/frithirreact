@@ -9,7 +9,8 @@ export default ({ page }) => (
   <Contact className="section cascade">
     <div className="container">
       <p className="white">
-        {page.title}{page.content}
+        {page.title}
+        <Content source={page.content} />
       </p>
     </div>
     <StyledForm />
