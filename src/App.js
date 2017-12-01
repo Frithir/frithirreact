@@ -55,7 +55,7 @@ class App extends Component {
           <GithubCorner url='https://github.com/Firthir' />
           <Welcome page={this.getDocument('pages', 'home')} />
           <ImageRow collectionId="488" alt="Learning, reading, up skilling"/>
-          <About page={this.getDocument('pages', 'about')} />
+          <About page={this.getDocument('pages', 'what-i-do')} />
           <ImageRow collectionId="430468" alt="Office, space"/>
           <Experience page={this.getDocument('pages', 'experience')}  />
           <ImageRow collectionId="397770" alt="Coffee time, meetings, disscussion"/>

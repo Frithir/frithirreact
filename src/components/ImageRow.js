@@ -1,9 +1,7 @@
 import React from 'react'
 import styled from 'styled-components'
 
-const Unsplash = styled.img`
-
-`
+const Unsplash = styled.img``
 
 export default ({count = 7, collectionId, alt}) => {
   const images = Array.from(Array(count))
