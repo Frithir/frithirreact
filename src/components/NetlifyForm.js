@@ -129,9 +129,12 @@ const StyledForm = styled.form`
   justify-content: center;
   max-width: 500px;
   margin: 2.5rem auto;
-
   & > * + * {
     margin-top: 1.5rem;
+  }
+
+  input:-webkit-autofill {
+    -webkit-box-shadow: 0 0 0 1000px white inset !important;
   }
 `
 const Label = styled.label`
