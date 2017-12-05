@@ -1,6 +1,8 @@
 {
+  "lang": "en",
   "short_name": "Frithir",
   "name": "Alex Frith portfolio",
+  "description": "Freelance Front End Developer - Gold Coast, Australia",
   "icons": [
     {
       "src": "favicon-32x32.png",
@@ -15,6 +17,7 @@
   ],
   "start_url": "index.html?launcher=true",
   "display": "standalone",
-  "theme_color": "#000000",
-  "background_color": "#000000"
+  "orientation": "portrait",
+  "theme_color": "#1e1e1e",
+  "background_color": "#1e1e1e"
 }
