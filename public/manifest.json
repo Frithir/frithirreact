@@ -5,17 +5,17 @@
   "description": "Freelance Front End Developer - Gold Coast, Australia",
   "icons": [
     {
-      "src": "favicon-32x32.png",
+      "src": "icons/favicon-32x32.png",
       "type": "image/png",
       "sizes": "32x32"
     },
     {
-      "src": "favicon-196.png",
+      "src": "icons/favicon-196.png",
       "type": "image/png",
       "sizes": "196x196"
     },
     {
-      "src": "mstile-310x310.png",
+      "src": "icons/mstile-310x310.png",
       "type": "image/png",
       "sizes": "558x558"
     }
