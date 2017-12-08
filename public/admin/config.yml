@@ -29,6 +29,8 @@ collections: # A list of collections the CMS should be able to edit
               - {label: Twitter Creator Account, name: twitterCreatorAccount, widget: string, required: false}
   - name: "pages"
     label: "Pages"
+    editor:
+      preview: false
     files:
       - file: "content/pages/home.md"
         label: "Home Page"
