@@ -65,7 +65,7 @@ class App extends Component {
             alt="Learning, reading, up skilling"
           />
           <About page={this.getDocument("pages", "what-i-do")} />
-          <ImageRow collectionId="5045359" alt="Office, space" />
+          <ImageRow collectionId="5045359" alt="Wild, space" />
           <Experience page={this.getDocument("pages", "experience")} />
           <ImageRow
             collectionId="195845"
