@@ -16,7 +16,7 @@
     "gray-matter": "^3.1.1",
     "js-yaml": "^3.10.0",
     "react-scripts": "^1.0.10",
-    "sharp": "^0.18.4",
+    "sharp": "^0.30.5",
     "snazzy": "^7.0.0",
     "standard": "^10.0.2",
     "sw-precache": "^5.2.0"
